@@ -65,7 +65,7 @@ public class Image extends BufferedImage{
 	 * @param tag the tag
 	 */
 	public void addTag(String tag) {
-		tagList.getInstance().addTag(this, tag);
+		TagList.getInstance().addTag(this, tag);
 	}
 	
 	/**
